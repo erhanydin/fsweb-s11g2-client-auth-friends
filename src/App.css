@@ -1,3 +1,59 @@
 .App {
   text-align: center;
 }
+
+.inputs {
+  background-color: black;
+  color: white;
+  font-size: large;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.buton {
+  background-color: black;
+  color: white;
+  font-size: large;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.buton:hover {
+  background-color: white;
+  color: black;
+  transition: 2s;
+}
+
+.login-header {
+  
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.buttons {
+  background-color: black;
+  color: white;
+  font-size: medium;
+  padding: 15px 30px;
+  margin: 0 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttons:hover {
+  background-color: white;
+  color: black;
+  transition: 2s;
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
